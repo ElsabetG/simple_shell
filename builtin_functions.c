@@ -31,7 +31,7 @@ void quit(char **tokenized_command)
 
 	for (; tokenized_command[num_token] != NULL; num_token++)
 		;
-	if (num_token ++ 1)
+	if (num_token == 1)
 	{
 		free(tokenized_command);
 		free(line);
