@@ -41,7 +41,7 @@ extern char *shell_name;
 extern int status;
 
 /*helpers*/
-void print(char *,int);
+void print(char *, int);
 char **tokenizer(char *, char *);
 void remove_newline(char *);
 int _strlen(char *);
