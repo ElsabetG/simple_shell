@@ -17,7 +17,7 @@ char **tokenizer(char *input_string, char *delim)
 
 	token = _strtok_r(input_string, delim, &save_ptr);
 
-	whil (token != NULL)
+	while (token != NULL)
 	{
 		av = _realloc(av, sizeof(*av) * num_delim, sizeof(*av) * (num_delim + 1));
 		av[num_delim] = token;
