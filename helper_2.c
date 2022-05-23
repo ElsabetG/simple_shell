@@ -70,7 +70,7 @@ int _atoi(char *s)
  * @old_size: size of ptr
  * @new_size: size of the new memory to be allocated
  *
- * Return: pointer to the address of the neew memory block
+ * Return: pointer to the address of the new memory block
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
